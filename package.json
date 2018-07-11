@@ -1,0 +1,26 @@
+{
+  "name": "tnt-solutions-backend",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "watch": "nodemon ./bin/www.js",
+    "prettier": "prettier -l **/*.js",
+    "prettier:write": "prettier --write **/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.30.0",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "influx": "^5.0.7",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.1",
+    "prettier": "^1.13.7"
+  }
+}

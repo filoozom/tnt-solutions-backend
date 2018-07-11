@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "tnt-solutions-backend",
+      "script": "./bin/www.js",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "env_production": {
+        "NODE_ENV": "production",
+        "PORT": 80
+      },
+      "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }
+  ]
+}
